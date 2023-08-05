@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '/sbublack.png'
 import "./TopBar.css"
 
 export default function Topbar() {
@@ -13,6 +14,7 @@ export default function Topbar() {
             <div className="topCenter">
                 <ul className="topList">
                     <li className="topListItem">HOME</li>
+                    <img src={logo} alt="Logo" />
                     <li className="topListItem">ABOUT</li>
                     <li className="topListItem">LOGIN</li>
                 </ul>
